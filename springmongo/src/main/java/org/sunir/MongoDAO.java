@@ -17,6 +17,10 @@ public class MongoDAO {
 		return mongoTemplate.findAll(Song.class);
 	}
 	
+	public List<User> findAllUsers(){
+		return mongoTemplate.findAll(User.class);
+	}
+	
 	
 
 }
